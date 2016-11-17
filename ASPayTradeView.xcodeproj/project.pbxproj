@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0447B96F1DD58DD30004EFE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0447B96E1DD58DD30004EFE4 /* main.m */; };
+		0447B9721DD58DD30004EFE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0447B9711DD58DD30004EFE4 /* AppDelegate.m */; };
+		0447B9751DD58DD30004EFE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0447B9741DD58DD30004EFE4 /* ViewController.m */; };
+		0447B9781DD58DD30004EFE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0447B9761DD58DD30004EFE4 /* Main.storyboard */; };
+		0447B97A1DD58DD30004EFE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0447B9791DD58DD30004EFE4 /* Assets.xcassets */; };
+		0447B97D1DD58DD30004EFE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0447B97B1DD58DD30004EFE4 /* LaunchScreen.storyboard */; };
+		0447B9871DD596650004EFE4 /* ASPayTradeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0447B9861DD596650004EFE4 /* ASPayTradeView.m */; };
+		0447B98C1DD599360004EFE4 /* ASTransformAnimationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0447B98B1DD599360004EFE4 /* ASTransformAnimationTool.m */; };
+		0447B98F1DD5997F0004EFE4 /* ASInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0447B98E1DD5997F0004EFE4 /* ASInputView.m */; };
+		0447B9921DD599920004EFE4 /* ASTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0447B9911DD599920004EFE4 /* ASTableView.m */; };
+		0447B9951DD59AE90004EFE4 /* ASTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0447B9941DD59AE90004EFE4 /* ASTableViewCell.m */; };
+		044CB58E1DDADA0200F30209 /* ASPayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 044CB58D1DDADA0200F30209 /* ASPayModel.m */; };
+		045B3FCC1DD94D8B00763ED6 /* ASPayVisibleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 045B3FCB1DD94D8B00763ED6 /* ASPayVisibleView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0447B96A1DD58DD30004EFE4 /* ASPayTradeView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASPayTradeView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0447B96E1DD58DD30004EFE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0447B9701DD58DD30004EFE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0447B9711DD58DD30004EFE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0447B9731DD58DD30004EFE4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0447B9741DD58DD30004EFE4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0447B9771DD58DD30004EFE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0447B9791DD58DD30004EFE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0447B97C1DD58DD30004EFE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0447B97E1DD58DD30004EFE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0447B9851DD596650004EFE4 /* ASPayTradeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPayTradeView.h; sourceTree = "<group>"; };
+		0447B9861DD596650004EFE4 /* ASPayTradeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPayTradeView.m; sourceTree = "<group>"; };
+		0447B98A1DD599360004EFE4 /* ASTransformAnimationTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASTransformAnimationTool.h; sourceTree = "<group>"; };
+		0447B98B1DD599360004EFE4 /* ASTransformAnimationTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASTransformAnimationTool.m; sourceTree = "<group>"; };
+		0447B98D1DD5997F0004EFE4 /* ASInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASInputView.h; sourceTree = "<group>"; };
+		0447B98E1DD5997F0004EFE4 /* ASInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASInputView.m; sourceTree = "<group>"; };
+		0447B9901DD599920004EFE4 /* ASTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASTableView.h; sourceTree = "<group>"; };
+		0447B9911DD599920004EFE4 /* ASTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASTableView.m; sourceTree = "<group>"; };
+		0447B9931DD59AE90004EFE4 /* ASTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASTableViewCell.h; sourceTree = "<group>"; };
+		0447B9941DD59AE90004EFE4 /* ASTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASTableViewCell.m; sourceTree = "<group>"; };
+		0447B9961DD59EB10004EFE4 /* ASPayConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASPayConst.h; sourceTree = "<group>"; };
+		044CB58C1DDADA0200F30209 /* ASPayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPayModel.h; sourceTree = "<group>"; };
+		044CB58D1DDADA0200F30209 /* ASPayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPayModel.m; sourceTree = "<group>"; };
+		045B3FCA1DD94D8B00763ED6 /* ASPayVisibleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASPayVisibleView.h; sourceTree = "<group>"; };
+		045B3FCB1DD94D8B00763ED6 /* ASPayVisibleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASPayVisibleView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0447B9671DD58DD30004EFE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0447B9611DD58DD30004EFE4 = {
+			isa = PBXGroup;
+			children = (
+				0447B96C1DD58DD30004EFE4 /* ASPayTradeView */,
+				0447B96B1DD58DD30004EFE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0447B96B1DD58DD30004EFE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0447B96A1DD58DD30004EFE4 /* ASPayTradeView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0447B96C1DD58DD30004EFE4 /* ASPayTradeView */ = {
+			isa = PBXGroup;
+			children = (
+				0447B9701DD58DD30004EFE4 /* AppDelegate.h */,
+				0447B9711DD58DD30004EFE4 /* AppDelegate.m */,
+				0447B9731DD58DD30004EFE4 /* ViewController.h */,
+				0447B9741DD58DD30004EFE4 /* ViewController.m */,
+				0447B9841DD596530004EFE4 /* ASPayTradeView-OC */,
+				0447B9761DD58DD30004EFE4 /* Main.storyboard */,
+				0447B9791DD58DD30004EFE4 /* Assets.xcassets */,
+				0447B97B1DD58DD30004EFE4 /* LaunchScreen.storyboard */,
+				0447B97E1DD58DD30004EFE4 /* Info.plist */,
+				0447B96D1DD58DD30004EFE4 /* Supporting Files */,
+			);
+			path = ASPayTradeView;
+			sourceTree = "<group>";
+		};
+		0447B96D1DD58DD30004EFE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0447B96E1DD58DD30004EFE4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0447B9841DD596530004EFE4 /* ASPayTradeView-OC */ = {
+			isa = PBXGroup;
+			children = (
+				044CB58B1DDAD9EA00F30209 /* Model */,
+				0447B9961DD59EB10004EFE4 /* ASPayConst.h */,
+				0447B9851DD596650004EFE4 /* ASPayTradeView.h */,
+				0447B9861DD596650004EFE4 /* ASPayTradeView.m */,
+				0447B9891DD599020004EFE4 /* TransformAniamtion */,
+				0447B9881DD598E70004EFE4 /* SubView */,
+			);
+			path = "ASPayTradeView-OC";
+			sourceTree = "<group>";
+		};
+		0447B9881DD598E70004EFE4 /* SubView */ = {
+			isa = PBXGroup;
+			children = (
+				045B3FCA1DD94D8B00763ED6 /* ASPayVisibleView.h */,
+				045B3FCB1DD94D8B00763ED6 /* ASPayVisibleView.m */,
+				0447B98D1DD5997F0004EFE4 /* ASInputView.h */,
+				0447B98E1DD5997F0004EFE4 /* ASInputView.m */,
+				0447B9901DD599920004EFE4 /* ASTableView.h */,
+				0447B9911DD599920004EFE4 /* ASTableView.m */,
+				0447B9931DD59AE90004EFE4 /* ASTableViewCell.h */,
+				0447B9941DD59AE90004EFE4 /* ASTableViewCell.m */,
+			);
+			name = SubView;
+			path = View;
+			sourceTree = "<group>";
+		};
+		0447B9891DD599020004EFE4 /* TransformAniamtion */ = {
+			isa = PBXGroup;
+			children = (
+				0447B98A1DD599360004EFE4 /* ASTransformAnimationTool.h */,
+				0447B98B1DD599360004EFE4 /* ASTransformAnimationTool.m */,
+			);
+			path = TransformAniamtion;
+			sourceTree = "<group>";
+		};
+		044CB58B1DDAD9EA00F30209 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				044CB58C1DDADA0200F30209 /* ASPayModel.h */,
+				044CB58D1DDADA0200F30209 /* ASPayModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0447B9691DD58DD30004EFE4 /* ASPayTradeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0447B9811DD58DD30004EFE4 /* Build configuration list for PBXNativeTarget "ASPayTradeView" */;
+			buildPhases = (
+				0447B9661DD58DD30004EFE4 /* Sources */,
+				0447B9671DD58DD30004EFE4 /* Frameworks */,
+				0447B9681DD58DD30004EFE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASPayTradeView;
+			productName = ASPayTradeView;
+			productReference = 0447B96A1DD58DD30004EFE4 /* ASPayTradeView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0447B9621DD58DD30004EFE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = haohao;
+				TargetAttributes = {
+					0447B9691DD58DD30004EFE4 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0447B9651DD58DD30004EFE4 /* Build configuration list for PBXProject "ASPayTradeView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0447B9611DD58DD30004EFE4;
+			productRefGroup = 0447B96B1DD58DD30004EFE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0447B9691DD58DD30004EFE4 /* ASPayTradeView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0447B9681DD58DD30004EFE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0447B97D1DD58DD30004EFE4 /* LaunchScreen.storyboard in Resources */,
+				0447B97A1DD58DD30004EFE4 /* Assets.xcassets in Resources */,
+				0447B9781DD58DD30004EFE4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0447B9661DD58DD30004EFE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0447B9921DD599920004EFE4 /* ASTableView.m in Sources */,
+				0447B9871DD596650004EFE4 /* ASPayTradeView.m in Sources */,
+				0447B98F1DD5997F0004EFE4 /* ASInputView.m in Sources */,
+				0447B9951DD59AE90004EFE4 /* ASTableViewCell.m in Sources */,
+				045B3FCC1DD94D8B00763ED6 /* ASPayVisibleView.m in Sources */,
+				0447B98C1DD599360004EFE4 /* ASTransformAnimationTool.m in Sources */,
+				0447B9751DD58DD30004EFE4 /* ViewController.m in Sources */,
+				0447B9721DD58DD30004EFE4 /* AppDelegate.m in Sources */,
+				044CB58E1DDADA0200F30209 /* ASPayModel.m in Sources */,
+				0447B96F1DD58DD30004EFE4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0447B9761DD58DD30004EFE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0447B9771DD58DD30004EFE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0447B97B1DD58DD30004EFE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0447B97C1DD58DD30004EFE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0447B97F1DD58DD30004EFE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0447B9801DD58DD30004EFE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0447B9821DD58DD30004EFE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ASPayTradeView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lsf.ASPayTradeView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0447B9831DD58DD30004EFE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ASPayTradeView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lsf.ASPayTradeView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0447B9651DD58DD30004EFE4 /* Build configuration list for PBXProject "ASPayTradeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0447B97F1DD58DD30004EFE4 /* Debug */,
+				0447B9801DD58DD30004EFE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0447B9811DD58DD30004EFE4 /* Build configuration list for PBXNativeTarget "ASPayTradeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0447B9821DD58DD30004EFE4 /* Debug */,
+				0447B9831DD58DD30004EFE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0447B9621DD58DD30004EFE4 /* Project object */;
+}
